@@ -3,8 +3,8 @@ repos:
   hooks:
   - id: jupytext-sync
     name: Jupytext sync
-    entry: jupytext --sync **/*.ipynb
+    entry: jupytext --sync
     language: python
     language_version: python 3.13
-    types: [jupyter, markdown]
+    files: \.(ipynb)$
     additional_dependencies: [jupytext]
