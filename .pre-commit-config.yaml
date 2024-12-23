@@ -3,10 +3,9 @@ repos:
   hooks:
   - id: jupytext-sync
     name: Jupytext sync
-    entry: jupytext --sync
+    entry: jupytext --sync --pre-commit-mode
     language: python
     files: \.(ipynb|md)$
     exclude: references\.md
     additional_dependencies:
     - jupytext
-    - pandoc
