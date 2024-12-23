@@ -17,17 +17,15 @@ kernelspec:
 :text: "myst:md"
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This page has both a ipynb and md version. It's referenced to by the toc with a `.ipynb`. A download link replacer thing is added with:
 
-change
+````
+```{custom_download_link} text_and_code.md
+:text: "myst:md"
+```
+````
 
-another change
-
-another changes
-
-now change here
-
-now in md file
+It can be downloaded as `.ipynb` or `myst:md`
 
 ```{code-cell} ipython3
 print('hello world 4')
