@@ -35,7 +35,7 @@ Change again! And again! again! AGain!
 
 AGain for online file editor
 
-Again locally. Another time locally?
+Again locally. Another time locally? Now from cli?
 
 ```{code-cell} ipython3
 print('hello world 4')
