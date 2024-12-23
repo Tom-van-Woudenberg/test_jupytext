@@ -1,6 +1,10 @@
 name: pre-commit
 
-on: push
+on: 
+  push:
+    paths:
+    - book/**
+
 
 jobs:
   pre-commit:
