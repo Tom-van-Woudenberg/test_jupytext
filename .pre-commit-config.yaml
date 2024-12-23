@@ -6,4 +6,4 @@ repos:
     entry: jupytext --sync
     language: python
     files: \.(ipynb|md)$
-    additional_dependencies: [jupytext]
+    additional_dependencies: [jupytext, pandoc]
