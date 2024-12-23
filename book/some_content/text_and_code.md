@@ -31,7 +31,7 @@ Can it be edited from the GitHub online editor too? And now?
 
 I changed something, now again, again!
 
-Change again!
+Change again! And again!
 
 ```{code-cell} ipython3
 print('hello world 4')
