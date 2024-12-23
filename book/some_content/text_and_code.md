@@ -27,6 +27,8 @@ This page has both a ipynb and md version. It's referenced to by the toc with a 
 
 It can be downloaded as `.ipynb` or `myst:md`
 
+Can it be edited from the GitHub online editor too?
+
 ```{code-cell} ipython3
 print('hello world 4')
 ```
