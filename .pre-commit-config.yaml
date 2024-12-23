@@ -5,6 +5,5 @@ repos:
     name: Jupytext sync
     entry: jupytext --sync
     language: python
-    language_version: python 3.13
     files: \.(ipynb|md)$
     additional_dependencies: [jupytext]
